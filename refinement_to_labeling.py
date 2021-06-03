@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[22]:
-
 
 import os
 import pandas as pd
@@ -32,7 +30,6 @@ with pd.ExcelWriter('data/refine_storage.xlsx', engine='xlsxwriter') as writer:
     writer.save()
 
 
-# In[1]:
 
 
 import os
@@ -169,7 +166,6 @@ for address in refine_mail:
     print(address)   
 
 
-# In[ ]:
 
 
 

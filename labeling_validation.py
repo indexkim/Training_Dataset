@@ -68,7 +68,8 @@ label_fin = set()
 gps = set()
 aper = set()
 classdetail = set()
-label_pass = set() 
+label_pass = set()
+label_pass_folder = set() 
 label_pass_detail = []
 for pathlist_a in path_list_after:
     for folder in sorted(os.listdir(pathlist_a)):
@@ -102,6 +103,7 @@ for pathlist_a in path_list_after:
                 pass
             else:
                 label_pass.add(pathlist_a+'/'+folder)
+                label_pass_folder.add(folder)
                 label_pass_dict[folder[:2]] += 1     # 1차 검수 통과 수량 - 폴더 단위                         
                 for file in sorted(os.listdir(pathlist_a+'/'+folder)):
                     if file.endswith('jpg'):

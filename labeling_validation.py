@@ -132,9 +132,8 @@ for pathlist_a in path_list_after:
 label_pass_xlsx = 'data/label_pass/' + str(yyyymmdd) + '_label_pass_list.xlsx'
 writer = pd.ExcelWriter(label_pass_xlsx, engine = 'xlsxwriter')
 
-p_list = set(label_pass_list)
-f_list = set(label_fin_list)
-failed = f_list - p_list
+
+failed = label_fin - label_pass
 for f in sorted(failed):
     label_failed_dict[f[61:63]] += 1
     

@@ -14,6 +14,16 @@
 
 
 
+
+## 디렉토리 구조
+
+1. 가공 전: X:\TrainingData\Labeling\Team\Member\label_before\member_date_before\folder\file    
+2. 가공 후: X:\TrainingData\Labeling\Team\Member\label_after\member_date_after\folder\file    
+
+
+
+
+
 ## 대분류(PROJECT SORTING)/중분류(CLASS)/소분류(DETAILS)
 
 1. 대분류01 / 중분류 01-10 / 소분류
@@ -22,11 +32,11 @@
 
 
 
-/labeler_yyyymmdd/folder/file
-
 
 
 ## dataset
 00_X000_C000_mmdd
 00_X000_C000_mmdd_0.jpg
 00_X000_C000_mmdd_0.Json
+
+

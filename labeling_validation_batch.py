@@ -105,13 +105,10 @@ for pathlist_a in path_list_after:
                     bound_cnt = int(jdata['BoundingCount'])
                     for i in range(1):
                         if len(jdata['GPS']) < 5: #주로 누락되는 필수값1
-                            gps.add(pathlist_a+'/'+folder)
                             pass
                         elif len(jdata['Aperture values']) < 1: #주로 누락되는 필수값2
-                            aper.add(pathlist_a+'/'+folder)
                             pass
                         elif jdata['Bounding'][i]['DETAILS'] not in class_dict[folder[:2]]: # 01_a는 맞지만, 02_a는 틀림
-                            classdetail.add(pathlist_a+'/'+folder)
                             pass
                         else:
                             json_cnt += 1 # 상기 조건을 전부 만족해야 적합으로 간주

@@ -1,0 +1,57 @@
+{
+  "FILE NAME": "01_X051_C112_0410_0.jpg",
+  "COLLECTION METHOD": "제작자료",
+  "FORM": "이미지",
+  "DATE": "2021-04-10 12:57:03",
+  "GPS": "37.5172258997222/126.7191954",
+  "ID CODE": "C112",
+  "RESOLUTION": "1921*1080",
+  "focus distance": "1.80mm",
+  "exposure time": "1/714sec",
+  "Aperture values": "2.27",
+  "Sensitivity iso": "50",
+  "exposure method": "normal program",
+  "MAKE": "samsung",
+  "Camera Model Name": "SM-N971N",
+  "Software": "N971NKSU1FUBD",
+  "File Size": "406791",
+  "DAY/NIGHT": "주간",
+  "PLACE": "실외",
+  "PROJECT SORTING": "PS1",
+  "BoundingCount": "1",
+  "Bounding": [
+    {
+      "CLASS": "01",
+      "DETAILS": "A3",
+      "DAMAGE": "원형",
+      "TRANSPARENCY": "불투명",
+      "Color": "144/160/115",
+      "Shape": "직육면체",
+      "Material": "M1",
+      "Object Size": "중",
+      "Direction": "정면",
+      "Drawing": "POLYGON",
+      "PolygonCount": "6",
+      "PolygonPoint": [
+        {
+          "Point1": "804,386"
+        },
+        {
+          "Point2": "761,491"
+        },
+        {
+          "Point3": "803,567"
+        },
+        {
+          "Point4": "1001,588"
+        },
+        {
+          "Point5": "1019,480"
+        },
+        {
+          "Point6": "1009,398"
+        }
+      ]
+    }
+  ]
+}

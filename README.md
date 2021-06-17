@@ -14,7 +14,7 @@
 2. 입고된 원천데이터 DB화, 창고로 이동, 창고의 원천데이터 물량 현행화
 3. 작업자 고용 현황, 사업 일정, 공정단계별 종별 잔여 물량 체크 후 작업물 분배. 물량 부족 시 report
 4. 분배 내역 DB화
-5. 완료된 작업물 확인: 공정 내 Performance management 측면의 검수 - 분배된 작업량을 전부 업로드해를 통해 근태 체크 - Bot
+5. 완료된 작업물 확인: 공정 내 Performance management 측면의 검수 - 분배된 작업량을 전부 업로드했는지 체크 - Bot
 6. Quality management 측면의 1차 검수 : data analysis 데이터 분석
 7. Quality management 측면의 1차 검수 : data ETL - 1차검수를 통과한 데이터셋 추출 > 검수 서버 구조에 맞게 변환 > 데이터 적재(이관)>이관 목록 생성
 8. 검수 결과 분석 및 재작업 대상자 피드백 - Bot

@@ -11,6 +11,33 @@
 4. 검수: 데이터셋 육안 검수
 5. 학습: 검수를 통과한 데이터셋 학습
 
+
+
+
+
+
+
+
+## 데이터셋 이름 규칙
+![슬라이드3](https://user-images.githubusercontent.com/62425277/123051205-7d491580-d43c-11eb-98a7-9a483e52165f.JPG)
+
+
+## 데이터셋 구조 - 라벨링 전
+
+![슬라이드4](https://user-images.githubusercontent.com/62425277/123051270-918d1280-d43c-11eb-88a1-862abf239bc1.JPG)
+
+## 데이터셋 구조 - 라벨링 후
+
+![슬라이드5](https://user-images.githubusercontent.com/62425277/123051317-9ce03e00-d43c-11eb-8dd3-71dee8a261ac.JPG)
+
+
+## 데이터셋 구조 - 라벨링 후_예시
+![슬라이드6](https://user-images.githubusercontent.com/62425277/123051361-a9fd2d00-d43c-11eb-8f6e-c1a89535fc10.JPG)
+
+
+
+
+
 ## 일일 가공 공정 세부 업무
 
 1. 가공 전 입고된 원천데이터 적합성 검증

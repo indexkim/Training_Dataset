@@ -90,18 +90,3 @@ def label_show_semi(path, folder, file, jdata):  #box, polygon 모두 반투명
             
 
 
-path = r'.' #육안검수 이미지 대상 경로
-
-for folder in sorted(os.listdir(path)):
-    for file in sorted(os.listdir(path+'/'+folder)):
-        if file.endswith('Json'):
-            json_path = path+'/'+folder+'/'+file
-            jfile = open(json_path, 'rt', encoding = 'UTF-8')
-            jdata = json.load(jfile)
-            jfile.close()
-            bound_cnt = int(jdata['BoundingCount'])
-            for i in range(bound_cnt):
-                label_show_semi(path, folder, file, jdata)
-            
-
-

@@ -1,3 +1,6 @@
+# Quality Management
+- 데이터셋의 속성이 반영된 이름 규칙, 표준 코드, 데이터셋 구조, 구문 규칙 등을 정의합니다.
+
 # 카테고리별 데이터 분류
 
 ![image](https://user-images.githubusercontent.com/62425277/121185692-48b45600-c8a1-11eb-9e34-eea1a617380b.png)
